@@ -34,4 +34,3 @@ Sistem E-Voting Pemilihan Ketua Organisasi Mahasiswa ini dikembangkan oleh:
 
 ---
 
-Jika kamu ingin saya bantu gabungkan semuanya ke dalam template README lengkap, tinggal bilang saja!
