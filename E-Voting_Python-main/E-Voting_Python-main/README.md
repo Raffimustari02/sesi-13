@@ -1,52 +1,37 @@
-README.md
-# Sistem E-Voting Pemilihan Ketua Organisasi Mahasiswa
+Berikut adalah deskripsi sistem E-Voting Pemilihan Ketua Organisasi Mahasiswa yang bisa kamu gunakan di file README, khususnya untuk bagian fitur utama:
 
-Proyek ini merupakan simulasi sistem e-voting sederhana berbasis CLI menggunakan Python. Mahasiswa dapat memilih calon ketua organisasi dan melihat hasil pemilu secara real-time.
+---
 
-## Fitur Utama
-- Input dan manajemen data pemilih
-- Input dan manajemen data calon
-- Proses voting dengan validasi satu suara per pemilih
-- Statistik pemilu sederhana
+## 📋 Deskripsi Sistem E-Voting Pemilihan Ketua Organisasi Mahasiswa
 
-## Struktur Folder
-```
-e_voting/
-├── main.py
-├── modul/
-│   ├── pemilih.py
-│   ├── calon.py
-│   ├── voting.py
-│   ├── statistik.py
-│   └── utils.py
-├── data/
-│   ├── pemilih.json
-│   └── calon.json
-└── README.md
-```
+Sistem E-Voting ini dirancang untuk memfasilitasi proses pemilihan Ketua Organisasi Mahasiswa secara digital, aman, dan efisien. Dengan sistem ini, proses pemilihan dapat dilakukan secara transparan dan terstruktur, menghindari kecurangan serta mempercepat perhitungan suara.
 
-## Cara Menjalankan
-1. Clone repositori ini.
-2. Jalankan file `main.py` dengan Python 3.
-3. Ikuti menu navigasi untuk menggunakan aplikasi.
+### 🔑 Fitur Utama
 
-## Dibuat oleh:
-- Yudha Yudistira
-- 20240040128
-- TI24H
-#
-- M.Rizky Akbar Supandi
-- 20240040198
-- TI24H
-#
-- Rifa Adritya Pamungkas
-- 20240040176
-- TI24H
-#
-- M.Denindra Pratama
-- 20240040290
-- TI24H
-#
-- M.Rahman Qodiri
-- 20240040014
-- TI24H 
+* **Input dan Manajemen Data Pemilih**
+  Admin dapat menambahkan, mengedit, atau menghapus data pemilih. Setiap pemilih memiliki identitas unik (misalnya NIM) yang digunakan untuk login dan memberikan suara.
+
+* **Input dan Manajemen Data Calon**
+  Sistem menyediakan fitur untuk menambahkan profil calon ketua, termasuk nama, visi & misi, serta foto. Admin juga dapat mengelola daftar calon sesuai kebutuhan.
+
+* **Proses Voting dengan Validasi Satu Suara per Pemilih**
+  Setiap pemilih hanya dapat memberikan satu suara. Sistem melakukan validasi untuk memastikan bahwa tidak ada pemilih yang memberikan suara lebih dari sekali.
+
+* **Statistik Pemilu Sederhana**
+  Setelah voting selesai, sistem menampilkan hasil akhir dalam bentuk statistik jumlah suara masing-masing calon secara real-time dan grafik sederhana untuk mempermudah analisis.
+
+---
+Tentu! Berikut adalah bagian tambahan untuk README yang mencantumkan pencipta/pengembang sistem:
+
+---
+
+### 👨‍💻 Pembuat
+
+Sistem E-Voting Pemilihan Ketua Organisasi Mahasiswa ini dikembangkan oleh:
+
+* **Muhammad Raffa Mustari**
+* **Muhammad Raffi Mustari**
+
+---
+
+Jika kamu ingin saya bantu gabungkan semuanya ke dalam template README lengkap, tinggal bilang saja!
